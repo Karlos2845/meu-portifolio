@@ -1,0 +1,148 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #00796B;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seção Hero */
+.hero {
+  background: url('https://images.unsplash.com/photo-1580281657527-47d9a6fe4b4d') no-repeat center center/cover;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #004D40;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #00332d;
+}
+
+/* Serviços */
+.services {
+  padding: 40px 0;
+  background-color: #e0f2f1;
+  text-align: center;
+}
+
+.services h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.services ul {
+  list-style: none;
+}
+
+.services li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Receita Digital */
+.receita-digital {
+  padding: 40px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.receita-digital h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.receita-digital form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.receita-digital input,
+.receita-digital button {
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.receita-digital button {
+  background-color: #00796B;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.receita-digital button:hover {
+  background-color: #005a4f;
+}
+
+/* Rodapé */
+footer {
+  background-color: #004D40;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
